@@ -1,7 +1,7 @@
 {
-  "name": "node-ssh",
+  "name": "@izuna/node-ssh",
   "version": "12.0.0",
-  "description": "SS2 with Promises",
+  "description": "Node-ssh module with my some fixes.",
   "main": "lib/cjs/index.js",
   "typings": "lib/typings/index.d.ts",
   "module": "lib/esm/index.mjs",
@@ -24,22 +24,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/steelbrain/node-ssh.git"
+    "url": "git+https://github.com/izuna894/node-ssh.git"
   },
   "keywords": [
     "ssh",
     "ssh2",
     "sftp"
   ],
-  "author": "steelbrain",
+  "author": "Izuna <jainsanyamco@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/steelbrain/node-ssh/issues"
+    "url": "https://github.com/izuna894/node-ssh/issues"
   },
   "files": [
     "lib/*"
   ],
-  "homepage": "https://github.com/steelbrain/node-ssh#readme",
+  "homepage": "https://github.com/izuna894/node-ssh#readme",
   "devDependencies": {
     "@types/shell-escape": "^0.2.0",
     "@types/ssh2": "^0.5.47",
@@ -56,7 +56,7 @@
     "sb-promise-queue": "^2.1.0",
     "sb-scandir": "^3.1.0",
     "shell-escape": "^0.2.0",
-    "ssh2": "^1.5.0"
+    "@izuna/ssh2": "^1.5.0"
   },
   "ava": {
     "files": [
